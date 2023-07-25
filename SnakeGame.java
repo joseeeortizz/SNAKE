@@ -161,9 +161,9 @@ class Board extends JPanel implements ActionListener {
 
             for (int i = 0; i < dots; i++) {
                 if (i == 0) {
-                    g.setColor(Color.GREEN);
+                    g.setColor(Color.WHITE);
                 } else {
-                    g.setColor(new Color(45, 180, 0));
+                    g.setColor(new Color(255, 255, 255));
                 }
                 g.fillRect(x[i], y[i], DOT_SIZE, DOT_SIZE);
             }
